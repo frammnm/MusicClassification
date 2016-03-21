@@ -1,0 +1,18 @@
+#MFCC 
+
+http://practicalcryptography.com/miscellaneous/machine-learning/guide-mel-frequency-cepstral-coefficients-mfccs/
+
+https://en.wikipedia.org/wiki/Mel-frequency_cepstrum#Noise_sensitivity 
+
+http://labrosa.ee.columbia.edu/matlab/rastamat/
+
+#Time Series Data
+
+https://fb56552f-a-62cb3a1a-s-sites.googlegroups.com/site/deeplearningworkshopnips2014/3.pdf?attachauth=ANoY7cr_1vvrPhw4rGjZc5Y4F42t6AJExyLA0GDLNlfViCvA93TqMpDX0ZsHGPJZ8V119Wl33d1aSDItIT5BLhSPwt_6G7_WXs1CT_9rIUDcCVv3gRcfXbCN0UlBjDrjUCfuJufIiIE7qOXDbMh2SBJW-1PpmPqQqQGxkP0dji34_ke211ovDpF1Y7zkAgess6IiGhhK19lU8Km_wAltuuBwcuVGn-zh5bO-pzaRvX3fEBVeJiy_4kA%3D&attredirects=1
+
+
+#Example papers
+
+http://cs229.stanford.edu/proj2013/FranciscoKim-MusicGenreClassificationAndVarianceComparisonOnNumberOfGenres.pdf
+
+http://cs229.stanford.edu/proj2014/Aaron%20Kravitz,%20Eliza%20Lupone,%20Ryan%20Diaz,%20Can%20Machines%20Learn%20Genres.pdf

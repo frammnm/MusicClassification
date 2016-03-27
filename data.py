@@ -18,26 +18,33 @@ def get_songs(g):
 
     time.sleep(60)
     print (g,"GENRE")
-    for i in range(60):
-        p = playlist.static(genres=g,type="genre-radio", results=15)
-        for s in p:    
-            print (s,"SONG")
-            dictionary = s.get_audio_summary()
-            track = []
-            track.append(s.artist_name.encode('ascii','ignore'))
-            track.append(dictionary['danceability'])
-            track.append(dictionary['duration'])
-            track.append(dictionary['energy'])
-            track.append(dictionary['key'])
-            track.append(dictionary['liveness'])
-            track.append(dictionary['loudness'])
-            track.append(dictionary['mode'])
-            track.append(dictionary['speechiness'])
-            track.append(dictionary['tempo'])
-            track.append(dictionary['time_signature'])
-            track.append(g)
-            songs.append(track)
-        time.sleep(60)
+    i = 0 
+    while (i <= 60 ):
+        try : 
+            p = playlist.static(genres=g,type="genre-radio", results=15)
+            for s in p:    
+                print (s,"SONG")
+                dictionary = s.get_audio_summary()
+                track = []
+                track.append(s.artist_name.encode('ascii','ignore'))
+                track.append(dictionary['danceability'])
+                track.append(dictionary['duration'])
+                track.append(dictionary['energy'])
+                track.append(dictionary['key'])
+                track.append(dictionary['liveness'])
+                track.append(dictionary['loudness'])
+                track.append(dictionary['mode'])
+                track.append(dictionary['speechiness'])
+                track.append(dictionary['tempo'])
+                track.append(dictionary['time_signature'])
+                track.append(g)
+                songs.append(track)
+            i +=1
+            time.sleep(60)
+        except :
+            print ("Fallo..Intentando de nuevo")
+            time.sleep(60)
+            pass 
 
     random.shuffle(songs)
 
@@ -62,6 +69,6 @@ def run_main():
         songs = [] 
         get_songs(g)
         generate_data_set("songs_data_set.tb");
-
+        print "SAVED PROGRESS TO FILE"
 if __name__ == "__main__":
     run_main()

@@ -24,8 +24,8 @@
 % of all the themes, uncomment each in turn to see what they look like.
 
 %\usetheme{default}
-%\usetheme{AnnArbor}
-%\usetheme{Antibes}
+% \usetheme{AnnArbor}
+\usetheme{Antibes}
 %\usetheme{Bergen}
 %\usetheme{Berkeley}
 %\usetheme{Berlin}
@@ -40,16 +40,16 @@
 %\usetheme{Ilmenau}
 %\usetheme{JuanLesPins}
 %\usetheme{Luebeck}
-\usetheme{Madrid}
+%\usetheme{Madrid}
 %\usetheme{Malmoe}
 %\usetheme{Marburg}
-%\usetheme{Montpellier}
+%% \usetheme{Montpellier}
 %\usetheme{PaloAlto}
 %\usetheme{Pittsburgh}
-%\usetheme{Rochester}
-%\usetheme{Singapore}
-%\usetheme{Szeged}
-%\usetheme{Warsaw}
+%%\usetheme{Rochester}
+% \usetheme{Singapore}
+% \usetheme{Szeged}
+% \usetheme{Warsaw}
 
 % As well as themes, the Beamer class has a number of color themes
 % for any slide theme. Uncomment each of these in turn to see how it
@@ -94,7 +94,7 @@ Universidad Sim\'{o}n Bol\'{i}var \\ % Your institution for the title page
 }
 \date{\today} % Date, can be changed to a custom date
 
-\begin{document}
+\begin{document}    
 
 \begin{frame}
 \titlepage % Print the title page as the first slide
@@ -112,23 +112,38 @@ Universidad Sim\'{o}n Bol\'{i}var \\ % Your institution for the title page
 %------------------------------------------------
 \section{Presentaci\'{o}n del Problema} % Sections can be created in order to organize your presentation into discrete blocks, all sections and subsections are automatically printed in the table of contents as an overview of the talk
 %------------------------------------------------
-
+\subsection{Introducci\'{o}n}
+\begin{frame}
+La clasificaci\'{o}n de g\'{e}neros musicales es una tarea realizada primordialmente por los humanos ya que est\'{a} caracterizada por subjetividad, con los avances en el aprendizaje de m\'{a}quinas y la inteligencia artificial en general se ha buscado que m\'{a}s de estas tareas que parecieran ser realizadas unicamente por humanos sean realizadas de manera determin\'{i}stica con las computadoras. Nuestro equipo a trav\'{e}s de distintas t\'{e}cnicas ha generado un conjunto de datos de cuatro g\'{e}neros distintos (metal, jazz, rap y electr\'{o}nica) y ha conseguido un nivel de predicci\'{o}n del 97,3\% respecto al g\'{e}nero musical. Este documento discute las t\'{e}cnicas y tareas realizadas para llegar a este resultado.
+\end{frame}
 \subsection{Dificultades} % A subsection can be created just before a set of slides with a common theme to further break down your presentation into chunks
 
 \begin{frame}
 \frametitle{Dificultades}
-Sed iaculis dapibus gravida. Morbi sed tortor erat, nec interdum arcu. Sed id lorem lectus. Quisque viverra augue id sem ornare non aliquam nibh tristique. Aenean in ligula nisl. Nulla sed tellus ipsum. Donec vestibulum ligula non lorem vulputate fermentum accumsan neque mollis.\\~\\
-
-Sed diam enim, sagittis nec condimentum sit amet, ullamcorper sit amet libero. Aliquam vel dui orci, a porta odio. Nullam id suscipit ipsum. Aenean lobortis commodo sem, ut commodo leo gravida vitae. Pellentesque vehicula ante iaculis arcu pretium rutrum eget sit amet purus. Integer ornare nulla quis neque ultrices lobortis. Vestibulum ultrices tincidunt libero, quis commodo erat ullamcorper id.
+\begin{itemize}
+\item Subjetividad
+\item Extraccion de caracter\'{i}sticas de las canciones
+\end{itemize}
 \end{frame}
 
 \subsection{Antecedentes} % A subsection can be created just before a set of slides with a common theme to further break down your presentation into chunks
 
 \begin{frame}
 \frametitle{Antecedentes}
-Sed iaculis dapibus gravida. Morbi sed tortor erat, nec interdum arcu. Sed id lorem lectus. Quisque viverra augue id sem ornare non aliquam nibh tristique. Aenean in ligula nisl. Nulla sed tellus ipsum. Donec vestibulum ligula non lorem vulputate fermentum accumsan neque mollis.\\~\\
-
-Sed diam enim, sagittis nec condimentum sit amet, ullamcorper sit amet libero. Aliquam vel dui orci, a porta odio. Nullam id suscipit ipsum. Aenean lobortis commodo sem, ut commodo leo gravida vitae. Pellentesque vehicula ante iaculis arcu pretium rutrum eget sit amet purus. Integer ornare nulla quis neque ultrices lobortis. Vestibulum ultrices tincidunt libero, quis commodo erat ullamcorper id.
+\begin{itemize}
+\item Aaron Kravitz, Eliza Lupone, Ryan Diaz
+    \begin{itemize}
+    \item 10 g\'{e}neros 
+    \item Random Forests 
+    \item 61.9\% Precisi\'{o}n de predicci\'{o}n 
+    \end{itemize} 
+\item Miguel Francisco, Dong Myung Kim
+    \begin{itemize}
+    \item 2-10 g\'{e}neros
+    \item SVM
+    \item 65.0\% (4 generos) - 35.3\% (10 generos) 
+    \end{itemize}
+\end{itemize}
 \end{frame}
 
 %------------------------------------------------
@@ -141,18 +156,17 @@ Sed diam enim, sagittis nec condimentum sit amet, ullamcorper sit amet libero. A
 
 \begin{frame}
 \frametitle{Inter\'{e}s Personal}
-Sed iaculis dapibus gravida. Morbi sed tortor erat, nec interdum arcu. Sed id lorem lectus. Quisque viverra augue id sem ornare non aliquam nibh tristique. Aenean in ligula nisl. Nulla sed tellus ipsum. Donec vestibulum ligula non lorem vulputate fermentum accumsan neque mollis.\\~\\
-
-Sed diam enim, sagittis nec condimentum sit amet, ullamcorper sit amet libero. Aliquam vel dui orci, a porta odio. Nullam id suscipit ipsum. Aenean lobortis commodo sem, ut commodo leo gravida vitae. Pellentesque vehicula ante iaculis arcu pretium rutrum eget sit amet purus. Integer ornare nulla quis neque ultrices lobortis. Vestibulum ultrices tincidunt libero, quis commodo erat ullamcorper id.
+Existe un interes personal en este proyecto, ya que ambos integrantes tienen inclinaciones musicales, por lo cual es normal sentir curiosidad por la aplicaci\'{o}n de el aprendizaje de maquinas
+en una tarea relacionada a lo que nos gusta de manera personal, lo cual es la m\'{u}sica. 
 \end{frame}
 
 \subsection{Aplicaciones} % A subsection can be created just before a set of slides with a common theme to further break down your presentation into chunks
 
 \begin{frame}
 \frametitle{Aplicaciones}
-Sed iaculis dapibus gravida. Morbi sed tortor erat, nec interdum arcu. Sed id lorem lectus. Quisque viverra augue id sem ornare non aliquam nibh tristique. Aenean in ligula nisl. Nulla sed tellus ipsum. Donec vestibulum ligula non lorem vulputate fermentum accumsan neque mollis.\\~\\
-
-Sed diam enim, sagittis nec condimentum sit amet, ullamcorper sit amet libero. Aliquam vel dui orci, a porta odio. Nullam id suscipit ipsum. Aenean lobortis commodo sem, ut commodo leo gravida vitae. Pellentesque vehicula ante iaculis arcu pretium rutrum eget sit amet purus. Integer ornare nulla quis neque ultrices lobortis. Vestibulum ultrices tincidunt libero, quis commodo erat ullamcorper id.
+\begin{itemize}
+\item Clasificaci\'{o}n de m\'{u}sica automatizada para sistemas de recomendaci\'{o}n musical.
+\end{itemize}
 \end{frame}
 
 %------------------------------------------------
@@ -166,10 +180,10 @@ Sed diam enim, sagittis nec condimentum sit amet, ullamcorper sit amet libero. A
 \begin{frame}
 \frametitle{Obtenci\'{o}n de datos y caracter\'{i}sticas}
 \begin{itemize}
-\item Caracteristicas de aprendizaje
+\item Caracter\'{i}sticas de aprendizaje
 \item One Million Song Dataset
-\item Creacion de nuestro propio conjunto de datos
-\item Vista de implementacion en Orange
+\item Creaci\'{o}n de nuestro propio conjunto de datos
+\item Vista de implementaci\'{o}n en Orange
 \end{itemize}
 \end{frame}
 
@@ -180,7 +194,7 @@ Sed diam enim, sagittis nec condimentum sit amet, ullamcorper sit amet libero. A
 \begin{figure}[ht]
   \caption{Logistic Regression Resultados}
   \centering
-    \includegraphics[width=0.5\textwidth]{Vista}
+    \includegraphics[width=0.5\textwidth]{Images/Vista}
 \end{figure}
 \end{frame}
 
@@ -192,12 +206,15 @@ Sed diam enim, sagittis nec condimentum sit amet, ullamcorper sit amet libero. A
 
 \begin{frame}
 \frametitle{Algoritmos}
-Sed iaculis dapibus gravida. Morbi sed tortor erat, nec interdum arcu. Sed id lorem lectus. Quisque viverra augue id sem ornare non aliquam nibh tristique. Aenean in ligula nisl. Nulla sed tellus ipsum. Donec vestibulum ligula non lorem vulputate fermentum accumsan neque mollis.\\~\\
-
-Sed diam enim, sagittis nec condimentum sit amet, ullamcorper sit amet libero. Aliquam vel dui orci, a porta odio. Nullam id suscipit ipsum. Aenean lobortis commodo sem, ut commodo leo gravida vitae. Pellentesque vehicula ante iaculis arcu pretium rutrum eget sit amet purus. Integer ornare nulla quis neque ultrices lobortis. Vestibulum ultrices tincidunt libero, quis commodo erat ullamcorper id.
+\begin{itemize}
+\item Random Forest
+\item SVM
+\item Naive Bayes
+\item Logistic Regression
+\item Nearest Neighbors
+\item Classification Tree
+\end{itemize}
 \end{frame}
-
-
 %------------------------------------------------
 
 %------------------------------------------------
@@ -210,9 +227,10 @@ Sed diam enim, sagittis nec condimentum sit amet, ullamcorper sit amet libero. A
 %------------------------------------------------
 \frametitle{Resultados de cada algoritmo}
 \begin{table}
+\begin{center}
 \begin{tabular}{ | p{2 cm} | p{2 cm} | p{2 cm} | p{2 cm} | p{2 cm} | }
 \toprule
-\textbf{Metodo} & \textbf{Predicci\'{o}n} & \textbf{ P / R } & \textbf{Precisi\'{o}n(P)} & \textbf{Recall(R)}\\
+\textbf{M\'{e}todo} & \textbf{Predicci\'{o}n} & \textbf{ P / R } & \textbf{Precisi\'{o}n(P)} & \textbf{Recall(R)}\\
 \midrule
 RF & 0.678 & 0.676 & 0.675 & 0.678\\ \hline
 SVM & 0.722 & 0.730 & 0.783 & 0.722\\ \hline
@@ -222,6 +240,7 @@ kNN & 0.817 & 0.816 & 0.816 & 0.817\\ \hline
 LR & 0.973 & 0.973 & 0.973 & 0.973\\ 
 \bottomrule
 \end{tabular}
+\end{center}
 \end{table}
 % %------------------------------------------------
 \end{frame}
@@ -233,7 +252,7 @@ LR & 0.973 & 0.973 & 0.973 & 0.973\\
 \begin{figure}[ht]
   \caption{Logistic Regression Resultados}
   \centering
-    \includegraphics[width=0.5\textwidth]{LR_precision}
+    \includegraphics[width=0.5\textwidth]{Images/LR_precision}
 \end{figure}
 \end{frame}
 
@@ -245,9 +264,7 @@ LR & 0.973 & 0.973 & 0.973 & 0.973\\
 
 \begin{frame}
 \frametitle{Conclusiones}
-Sed iaculis dapibus gravida. Morbi sed tortor erat, nec interdum arcu. Sed id lorem lectus. Quisque viverra augue id sem ornare non aliquam nibh tristique. Aenean in ligula nisl. Nulla sed tellus ipsum. Donec vestibulum ligula non lorem vulputate fermentum accumsan neque mollis.\\~\\
-
-Sed diam enim, sagittis nec condimentum sit amet, ullamcorper sit amet libero. Aliquam vel dui orci, a porta odio. Nullam id suscipit ipsum. Aenean lobortis commodo sem, ut commodo leo gravida vitae. Pellentesque vehicula ante iaculis arcu pretium rutrum eget sit amet purus. Integer ornare nulla quis neque ultrices lobortis. Vestibulum ultrices tincidunt libero, quis commodo erat ullamcorper id.
+Se puede concluir que los resultados fueron satisfactorios, el algoritmo de “Logic Regression” logr\'{o} casi 100\% de precisi\'{o}n, aunque en gran parte una de las decisiones que m\'{a}s influy\'{o} en estos resultados fue la escogencia de g\'{e}neros que “no tienen mucho en com\'{u}n”. El art\'{i}culo en el que nos inspiramos logr\'{o} un 61\% de precisi\'{o}n con una mayor cantidad de g\'{e}neros.Se puede argumentar tambi\'{e}n que es posible realizar una clasificaci\'{o}n de g\'{e}neros m\'{a}s completa, incluyendo m\'{a}s generos, tambi\'{e}n es posible mejorar el algoritmo si se incluye un mayor n\'{u}mero de caracter\'{i}sticas al realizar el aprendizaje.
 \end{frame}
 
 %------------------------------------------------
@@ -380,7 +397,7 @@ Sed diam enim, sagittis nec condimentum sit amet, ullamcorper sit amet libero. A
 %------------------------------------------------
 
 \begin{frame}
-\Huge{\centerline{The End}}
+\Huge{\centerline{Final de la presentaci\'{o}n}}
 \end{frame}
 
 %----------------------------------------------------------------------------------------

@@ -6,53 +6,56 @@
 \headcommand {\sectionentry {1}{Presentaci\'{o}n del Problema}{3}{Presentaci\'{o}n del Problema}{0}}
 \headcommand {\beamer@sectionpages {1}{2}}
 \headcommand {\beamer@subsectionpages {1}{2}}
-\headcommand {\beamer@subsectionentry {0}{1}{1}{3}{Dificultades}}\headcommand {\beamer@subsectionpages {3}{2}}
-\headcommand {\slideentry {1}{1}{1}{3/3}{Dificultades}{0}}
+\headcommand {\beamer@subsectionentry {0}{1}{1}{3}{Introducci\'{o}n}}\headcommand {\beamer@subsectionpages {3}{2}}
+\headcommand {\slideentry {1}{1}{1}{3/3}{Introducci\'{o}n}{0}}
 \headcommand {\beamer@framepages {3}{3}}
-\headcommand {\beamer@subsectionentry {0}{1}{2}{4}{Antecedentes}}\headcommand {\beamer@subsectionpages {3}{3}}
-\headcommand {\slideentry {1}{2}{1}{4/4}{Antecedentes}{0}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{4}{Dificultades}}\headcommand {\beamer@subsectionpages {3}{3}}
+\headcommand {\slideentry {1}{2}{1}{4/4}{Dificultades}{0}}
 \headcommand {\beamer@framepages {4}{4}}
-\headcommand {\sectionentry {2}{Motivaci\'{o}n del Problema}{5}{Motivaci\'{o}n del Problema}{0}}
-\headcommand {\beamer@sectionpages {3}{4}}
-\headcommand {\beamer@subsectionpages {4}{4}}
-\headcommand {\beamer@subsectionentry {0}{2}{1}{5}{Inter\'{e}s Personal}}\headcommand {\beamer@subsectionpages {5}{4}}
-\headcommand {\slideentry {2}{1}{1}{5/5}{Inter\'{e}s Personal}{0}}
+\headcommand {\beamer@subsectionentry {0}{1}{3}{5}{Antecedentes}}\headcommand {\beamer@subsectionpages {4}{4}}
+\headcommand {\slideentry {1}{3}{1}{5/5}{Antecedentes}{0}}
 \headcommand {\beamer@framepages {5}{5}}
-\headcommand {\beamer@subsectionentry {0}{2}{2}{6}{Aplicaciones}}\headcommand {\beamer@subsectionpages {5}{5}}
-\headcommand {\slideentry {2}{2}{1}{6/6}{Aplicaciones}{0}}
+\headcommand {\sectionentry {2}{Motivaci\'{o}n del Problema}{6}{Motivaci\'{o}n del Problema}{0}}
+\headcommand {\beamer@sectionpages {3}{5}}
+\headcommand {\beamer@subsectionpages {5}{5}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{6}{Inter\'{e}s Personal}}\headcommand {\beamer@subsectionpages {6}{5}}
+\headcommand {\slideentry {2}{1}{1}{6/6}{Inter\'{e}s Personal}{0}}
 \headcommand {\beamer@framepages {6}{6}}
-\headcommand {\sectionentry {3}{Dise\~{n}o de la Soluci\'{o}n}{7}{Dise\~{n}o de la Soluci\'{o}n}{0}}
-\headcommand {\beamer@sectionpages {5}{6}}
-\headcommand {\beamer@subsectionpages {6}{6}}
-\headcommand {\beamer@subsectionentry {0}{3}{1}{7}{Obtenci\'{o}n de datos y caracter\'{i}sticas}}\headcommand {\beamer@subsectionpages {7}{6}}
-\headcommand {\slideentry {3}{1}{1}{7/7}{Obtenci\'{o}n de datos y caracter\'{i}sticas}{0}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{7}{Aplicaciones}}\headcommand {\beamer@subsectionpages {6}{6}}
+\headcommand {\slideentry {2}{2}{1}{7/7}{Aplicaciones}{0}}
 \headcommand {\beamer@framepages {7}{7}}
-\headcommand {\slideentry {3}{1}{2}{8/8}{Obtenci\'{o}n de datos y caracter\'{i}sticas}{0}}
+\headcommand {\sectionentry {3}{Dise\~{n}o de la Soluci\'{o}n}{8}{Dise\~{n}o de la Soluci\'{o}n}{0}}
+\headcommand {\beamer@sectionpages {6}{7}}
+\headcommand {\beamer@subsectionpages {7}{7}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{8}{Obtenci\'{o}n de datos y caracter\'{i}sticas}}\headcommand {\beamer@subsectionpages {8}{7}}
+\headcommand {\slideentry {3}{1}{1}{8/8}{Obtenci\'{o}n de datos y caracter\'{i}sticas}{0}}
 \headcommand {\beamer@framepages {8}{8}}
-\headcommand {\sectionentry {4}{Experimentos}{9}{Experimentos}{0}}
-\headcommand {\beamer@sectionpages {7}{8}}
-\headcommand {\beamer@subsectionpages {7}{8}}
-\headcommand {\beamer@subsectionentry {0}{4}{1}{9}{Algoritmos}}\headcommand {\beamer@subsectionpages {9}{8}}
-\headcommand {\slideentry {4}{1}{1}{9/9}{Algoritmos}{0}}
+\headcommand {\slideentry {3}{1}{2}{9/9}{Obtenci\'{o}n de datos y caracter\'{i}sticas}{0}}
 \headcommand {\beamer@framepages {9}{9}}
-\headcommand {\sectionentry {5}{Resultados}{10}{Resultados}{0}}
-\headcommand {\beamer@sectionpages {9}{9}}
-\headcommand {\beamer@subsectionpages {9}{9}}
-\headcommand {\beamer@subsectionentry {0}{5}{1}{10}{Comparaci\'{o}n entre algoritmos}}\headcommand {\beamer@subsectionpages {10}{9}}
-\headcommand {\slideentry {5}{1}{1}{10/10}{Comparaci\'{o}n entre algoritmos}{0}}
+\headcommand {\sectionentry {4}{Experimentos}{10}{Experimentos}{0}}
+\headcommand {\beamer@sectionpages {8}{9}}
+\headcommand {\beamer@subsectionpages {8}{9}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{10}{Algoritmos}}\headcommand {\beamer@subsectionpages {10}{9}}
+\headcommand {\slideentry {4}{1}{1}{10/10}{Algoritmos}{0}}
 \headcommand {\beamer@framepages {10}{10}}
-\headcommand {\beamer@subsectionentry {0}{5}{2}{11}{An\'{a}lisis del mejor resultado}}\headcommand {\beamer@subsectionpages {10}{10}}
-\headcommand {\slideentry {5}{2}{1}{11/11}{An\'{a}lisis del mejor resultado}{0}}
+\headcommand {\sectionentry {5}{Resultados}{11}{Resultados}{0}}
+\headcommand {\beamer@sectionpages {10}{10}}
+\headcommand {\beamer@subsectionpages {10}{10}}
+\headcommand {\beamer@subsectionentry {0}{5}{1}{11}{Comparaci\'{o}n entre algoritmos}}\headcommand {\beamer@subsectionpages {11}{10}}
+\headcommand {\slideentry {5}{1}{1}{11/11}{Comparaci\'{o}n entre algoritmos}{0}}
 \headcommand {\beamer@framepages {11}{11}}
-\headcommand {\sectionentry {6}{Conclusiones}{12}{Conclusiones}{0}}
-\headcommand {\beamer@sectionpages {10}{11}}
-\headcommand {\beamer@subsectionpages {11}{11}}
-\headcommand {\slideentry {6}{0}{2}{12/12}{}{0}}
+\headcommand {\beamer@subsectionentry {0}{5}{2}{12}{An\'{a}lisis del mejor resultado}}\headcommand {\beamer@subsectionpages {11}{11}}
+\headcommand {\slideentry {5}{2}{1}{12/12}{An\'{a}lisis del mejor resultado}{0}}
 \headcommand {\beamer@framepages {12}{12}}
-\headcommand {\slideentry {6}{0}{3}{13/13}{}{0}}
+\headcommand {\sectionentry {6}{Conclusiones}{13}{Conclusiones}{0}}
+\headcommand {\beamer@sectionpages {11}{12}}
+\headcommand {\beamer@subsectionpages {12}{12}}
+\headcommand {\slideentry {6}{0}{2}{13/13}{}{0}}
 \headcommand {\beamer@framepages {13}{13}}
-\headcommand {\beamer@partpages {1}{13}}
-\headcommand {\beamer@subsectionpages {12}{13}}
-\headcommand {\beamer@sectionpages {12}{13}}
-\headcommand {\beamer@documentpages {13}}
-\headcommand {\def \inserttotalframenumber {13}}
+\headcommand {\slideentry {6}{0}{3}{14/14}{}{0}}
+\headcommand {\beamer@framepages {14}{14}}
+\headcommand {\beamer@partpages {1}{14}}
+\headcommand {\beamer@subsectionpages {13}{14}}
+\headcommand {\beamer@sectionpages {13}{14}}
+\headcommand {\beamer@documentpages {14}}
+\headcommand {\def \inserttotalframenumber {14}}

@@ -1,0 +1,15 @@
+\beamer@endinputifotherversion {3.33pt}
+\beamer@sectionintoc {1}{Presentaci\'{o}n del Problema}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Dificultades}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Antecedentes}{4}{0}{1}
+\beamer@sectionintoc {2}{Motivaci\'{o}n del Problema}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{Inter\'{e}s Personal}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{Aplicaciones}{6}{0}{2}
+\beamer@sectionintoc {3}{Dise\~{n}o de la Soluci\'{o}n}{7}{0}{3}
+\beamer@subsectionintoc {3}{1}{Obtenci\'{o}n de datos y caracter\'{i}sticas}{7}{0}{3}
+\beamer@sectionintoc {4}{Experimentos}{9}{0}{4}
+\beamer@subsectionintoc {4}{1}{Algoritmos}{9}{0}{4}
+\beamer@sectionintoc {5}{Resultados}{10}{0}{5}
+\beamer@subsectionintoc {5}{1}{Comparaci\'{o}n entre algoritmos}{10}{0}{5}
+\beamer@subsectionintoc {5}{2}{An\'{a}lisis del mejor resultado}{11}{0}{5}
+\beamer@sectionintoc {6}{Conclusiones}{12}{0}{6}
